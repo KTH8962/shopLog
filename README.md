@@ -26,6 +26,6 @@ npm install react-router-dom localforage sort-by
 
 npm install @types/node
 
-### 설치
+### sass 설치
 
 ### 설치
