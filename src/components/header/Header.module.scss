@@ -1,0 +1,8 @@
+.header {
+  @include FLEX(space-between, center);
+  @include POSITION(fixed, 0, null, null, 0);
+  @include PD-IP2(0, 20);
+  @include BORDER(bottom, var(--color-contrastyE5));
+  width: 100%;
+  height: 80px;
+}

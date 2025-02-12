@@ -1,3 +1,4 @@
+@use "sass:math";
 @forward "./reset.scss";
 /*** setting ***/
 @mixin FLEX($justify: null, $align: null, $direction: null, $wrap: null) {
