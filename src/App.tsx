@@ -1,10 +1,10 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom"
 //import styles from "./App.module.scss"
 import Header from "@components/header/Header"
-import MainPage from "@pages/MainPage"
+import MainPage from "@pages/mainPage/MainPage"
 import MyPage from "@pages/MyPage"
-import Login from "@pages/Login"
-import Join from "@pages/Join"
+import Login from "@pages/login/Login"
+import Join from "@pages/join/Join"
 
 function App() {
   return (
