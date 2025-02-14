@@ -4,10 +4,10 @@ import styles from "./Header.module.scss"
 function Header() {
   const location = useLocation()
   const check = ["login", "join"]
-  console.log(
-    check.some((path) => location.pathname.startsWith(`/${path}`)),
-    location.pathname
+  const classCheck = check.some((path) =>
+    location.pathname.startsWith(`/${path}`)
   )
+  console.log(classCheck)
   return (
     <header className={styles.header}>
       <h1 className={styles.header__logo}>
