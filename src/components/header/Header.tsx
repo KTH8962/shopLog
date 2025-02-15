@@ -7,7 +7,7 @@ function Header() {
   const classCheck = check.some((path) =>
     location.pathname.startsWith(`/${path}`)
   )
-  console.log(classCheck)
+  console.log(classCheck, check)
   return (
     <header className={styles.header}>
       <h1 className={styles.header__logo}>
