@@ -11,7 +11,7 @@ function Header() {
   return (
     <header className={styles.header}>
       <h1 className={styles.header__logo}>
-        <Link to="/">ShopLog로</Link>
+        <Link to="/">ShopLog로고</Link>
       </h1>
       <nav className={styles.gnb}>
         <ul>
