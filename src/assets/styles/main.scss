@@ -115,3 +115,39 @@
 $url-images: "/assets/images/";
 $url-images-ico: "/assets/images/ico/";
 /*** //setting ***/
+
+.flexTable {
+  background: var(--base-white);
+  height: 100%;
+  .tr {
+    @include FLEX(null, center);
+    @include BORDER(bottom, var(--color-contrastyF5));
+    width: 100%;
+  }
+  .thead {
+    .tr {
+      @include PD-IP2(9, 40);
+      & > * {
+        @include FONT(11, 700, var(--color-contrastyA));
+      }
+    }
+  }
+  .tbody {
+    @include BORDER(bottom, var(--color-contrastyF5));
+    height: calc(100% - 30px);
+    background-color: var(--base-white);
+    overflow: auto;
+    .tr {
+      @include FONT(14, 500, null, 20px);
+      @include PD-IP1(16, 40, 17, 40);
+      align-self: center;
+      b {
+        @include MG-IP1(0, 4, 0, 0);
+        font-weight: 700;
+      }
+      &:last-of-type {
+        border-bottom: none;
+      }
+    }
+  }
+}
