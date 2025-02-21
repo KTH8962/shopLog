@@ -8,11 +8,29 @@ function Join() {
           <img alt="ShopLog logo" />
         </h1>
         <div className={styles.login__contents}>
-          <div className={styles.ip_box}>
-            <input type="text" />
+          <div className={styles.ip_ul}>
+            <div className={styles.tit_box}></div>
+            <div className={styles.bot_box}>
+              <div className={styles.ip_box}>
+                <input type="text" />
+              </div>
+            </div>
           </div>
-          <div className={styles.ip_box}>
-            <input type="password" />
+          <div className={styles.ip_ul}>
+            <div className={styles.tit_box}></div>
+            <div className={styles.bot_box}>
+              <div className={styles.ip_box}>
+                <input type="text" />
+              </div>
+            </div>
+          </div>
+          <div className={styles.ip_ul}>
+            <div className={styles.tit_box}></div>
+            <div className={styles.bot_box}></div>
+          </div>
+          <div className={styles.ip_ul}>
+            <div className={styles.tit_box}></div>
+            <div className={styles.bot_box}></div>
           </div>
           <div className={styles.btn_box}>
             <button type="button">로그인</button>
