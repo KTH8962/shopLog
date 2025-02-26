@@ -25,7 +25,15 @@ function Join() {
             </div>
           </div>
           <div className={styles.ip_ul}>
-            <div className={styles.tit_box}></div>
+            <div className={styles.tit_box}>비밀번호 확인</div>
+            <div className={styles.bot_box}>
+              <div className={styles.ip_box}>
+                <input type="password" />
+              </div>
+            </div>
+          </div>
+          <div className={styles.ip_ul}>
+            <div className={styles.tit_box}>이름</div>
             <div className={styles.bot_box}>
               <div className={styles.ip_box}>
                 <input type="text" />
@@ -34,11 +42,11 @@ function Join() {
           </div>
           <div className={styles.ip_ul}>
             <div className={styles.tit_box}></div>
-            <div className={styles.bot_box}></div>
-          </div>
-          <div className={styles.ip_ul}>
-            <div className={styles.tit_box}></div>
-            <div className={styles.bot_box}></div>
+            <div className={styles.bot_box}>
+              <div className={styles.ip_box}>
+                <input type="text" />
+              </div>
+            </div>
           </div>
           <div className={styles.btn_box}>
             <button type="button">로그인</button>
