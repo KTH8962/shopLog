@@ -41,7 +41,7 @@ function Join() {
             </div>
           </div>
           <div className={styles.ip_ul}>
-            <div className={styles.tit_box}></div>
+            <div className={styles.tit_box}>이메일</div>
             <div className={styles.bot_box}>
               <div className={styles.ip_box}>
                 <input type="text" />
