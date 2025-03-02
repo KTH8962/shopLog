@@ -28,7 +28,10 @@ function Join() {
             <div className={styles.tit_box}>비밀번호 확인</div>
             <div className={styles.bot_box}>
               <div className={styles.ip_box}>
-                <input type="password" />
+                <input
+                  type="password"
+                  placeholder="비밀번호를 한번 더 입력해주세요"
+                />
               </div>
             </div>
           </div>
