@@ -47,7 +47,7 @@ function Join() {
             <div className={styles.tit_box}>이메일</div>
             <div className={styles.bot_box}>
               <div className={styles.ip_box}>
-                <input type="text" />
+                <input type="text" placeholder="이메일을 입력해주세요" />
               </div>
             </div>
           </div>
