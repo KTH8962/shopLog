@@ -12,7 +12,7 @@ function Login() {
             <div className={styles.tit_box}>아이디</div>
             <div className={styles.bot_box}>
               <div className={styles.ip_box}>
-                <input type="text" />
+                <input type="text" placeholder="아이디를 입력해주세요" />
               </div>
             </div>
           </div>
